@@ -1,0 +1,34 @@
+@media screen and (min-width : 320px) and (max-width : 480px) {   
+    .container-message-sender{
+        width: 100%;
+        border:none;
+    } 
+    .conversation-container{
+        width: 100%;
+        min-height: 82.5vh;
+        max-height: 82.5vh;
+    }
+    .conversation-resume{
+        width: 75vw;
+    } 
+    .resume-conversation-container{
+        width: 80%;
+    }
+    .text-area-width{
+        width: 200px;
+        padding-right: 10px;
+    }
+    .form-send-message .ant-form-item-control-input-content{
+        margin-right: 10px;
+    }
+    .single-conversation .text-area-width{
+        width: 300px;
+    }
+    #display-conversation .conversation-container{
+        min-height: 77vh;
+        max-height: 77vh;
+    }
+
+    
+
+}
